@@ -1,0 +1,54 @@
+* { margin: 0;
+    padding: 0;
+}
+
+
+body { font-style: arial; color: white;
+
+    background-color: rgb(33, 56, 35);
+    background-image: url(ASSETS/doomguy1.jpg);
+
+}
+
+
+header {
+    background-color: #000000c0;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+header ul {text-decoration: none;
+            list-style: none;
+
+}
+
+header a {text-decoration: none;
+}
+
+
+
+
+footer {
+    background-color:rgb(32, 28, 28);
+    
+}
+
+h1 {color: black;
+
+}
+
+h2 { color: black; 
+
+}
+
+
+.imagenlogo {align-items: start;
+            height: 10rem;
+            width: 10rem;
+            display: inline;
+}
+
+
+
