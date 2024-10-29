@@ -1,18 +1,19 @@
-* { margin: 0;
-    padding: 0;
-}
-
-
 body { font-style: arial; color: white;
     font-size: 16px;
     background-color: rgb(33, 56, 35);
-    background-image: url(ASSETS/doomguy1.jpg);
 }
 
+video {max-width: 100%; 
+    height: auto;
+ }
+
+ .responsive img {max-width: 100%; 
+    height: auto;
+
+ }
 
 
-
-header img  {width: 10rem;
+header img  {width: 5rem;
     display: flex;
     
 }
@@ -21,15 +22,25 @@ header img  {width: 10rem;
 header {
     background-color: #000000c0;
     display: flex;
+    min-width: 70px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     border-bottom: 1px solid grey;
+    padding: 10px;
 }
 
 
+img { width: 100%;
+    height: auto;
 
+}
 
+.logoscontactos {
+    margin: 15px;
+    width: 50px;
+    border-radius: 30px;
 
+}
 
 header ul {text-decoration: none;
             list-style: none;
@@ -69,48 +80,41 @@ h2 { color: black;
     align-items: end;
 }
 
+img {max-width: 100%; 
+    height: auto;
+
+}
+
+
+
 /* MEDIA QUIRES */
+@media (max-width:700px){header{
 
-
-
-/* Móviles (hasta 600px) */
-@media (max-width: 600px) {
-    body {
-        font-size: 16px;
-    padding: 10px;
-    }
-}
-/* Estilos para dispositivos móviles */
-.navbar {
-    display: flex;
     flex-direction: column;
-    align-items: center;
+
+    nav{
+        padding: 10px 0 px;
+    }
 }
 
+}
 
-
-
-
-/* Media query para tabletas */
-@media (min-width: 600px) {
+@media (min-width: 1024px) {
     body {
-        padding: 20px;
-    }
-
-    header, main, footer {
-        padding: 20px;
-        text-align: left;
-    }
-
-    h1 {
-        font-size: 2em;
-    }
-
-    h2 {
-        font-size: 1.5em;
-    }
-
-    p {
-        font-size: 1.2em;
+        font-size: 20px;
+        padding: 30px;
     }
 }
+
+@media (min-width: 200px) {
+
+    body{ font-size: 10px;
+        padding: 20px;
+    
+    }
+
+   
+}
+
+
+
