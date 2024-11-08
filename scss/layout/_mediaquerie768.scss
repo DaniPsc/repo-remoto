@@ -1,0 +1,18 @@
+// MEDIA QUERIES
+
+
+@media (min-width: 768px) {
+    body {
+        font-size: 18px; 
+        padding: 20px; 
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .logodoom {
+        width: 150px;
+}
+
+}
