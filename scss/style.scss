@@ -4,9 +4,7 @@
 @import "../scss/layout/footer.scss";
 @import "../scss/layout/contacto.scss";
 @import "../scss/base/reset.scss";
-@import "../scss/layout/mediaquerie480.scss";
-@import "../scss/layout/mediaquerie700.scss";
-@import "../scss/layout/mediaquerie768.scss";
-@import "../scss/layout/mediaquerie1024.scss";
-
-
+@import "../scss/media-queries/mediaquerie480.scss";
+@import "../scss/media-queries/mediaquerie700.scss";
+@import "../scss/media-queries/mediaquerie768.scss";
+@import "../scss/media-queries/mediaquerie1024.scss";
