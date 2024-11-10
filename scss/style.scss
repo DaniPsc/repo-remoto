@@ -1,10 +1,10 @@
 // IMPORTS 
 
-@import "../scss/layout/header";
-@import "../scss/layout/footer.scss";
-@import "../scss/layout/contacto.scss";
-@import "../scss/base/reset.scss";
-@import "../scss/media-queries/mediaquerie480.scss";
-@import "../scss/media-queries/mediaquerie700.scss";
-@import "../scss/media-queries/mediaquerie768.scss";
-@import "../scss/media-queries/mediaquerie1024.scss";
+@import "base/reset";
+@import './layout/contacto';
+@import './layout/footer';
+@import "/scss/layout/header";
+@import './media-queries/mediaquerie1024';
+@import './media-queries/mediaquerie768';
+@import './media-queries/mediaquerie700';
+@import './media-queries/mediaquerie480';
