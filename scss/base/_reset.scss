@@ -1,27 +1,58 @@
+@import "../utilities/variables";
+
+
 /* RESET */
-* { margin: 0;
-    padding: 0;
+* {
+  margin: 10px;
+  padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-size: 16px;
-    background-color: rgba(20, 43, 22, 0.89);
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    background-color:rgb(0, 0, 0);
+     
+  }
 
-    h1 {
-        color: black;
-    }
-    
-    h2 {
-        color: black;
-    }
-    
-    video {
-        max-width: 100%;
-        height: auto;
-    }
 
-    .logodoom { max-width: 100%;
-        height: auto;
-    
-    }
+  * h1 {
+    color: $primary-color;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+  }
 
- }
+
+  * h2 {
+    color:$primary-color;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+
+
+  p {
+      color: $primary-color;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 15px;
+  }
+
+
+  * video {
+    max-width: 100%;
+    height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;         
+      height: 100vh;         
+      margin: 0;            
+
+  }
+
+
+
+  * .logodoom {
+    max-width: 100%;
+    height: auto;
+  }
+
+  body { color: black;}
+
+
+  

@@ -4,7 +4,10 @@
 @import "./layout/footer";
 @import "./layout/header";
 @import "./base/reset";
-@import "./media-queries/mediaquerie1024";
-@import "./media-queries/mediaquerie480";
-@import "./media-queries/mediaquerie700";
-@import "./media-queries/mediaquerie768";
+@import "./media-queries/mediadesktop";
+@import "./media-queries/mediacelular";
+@import "./media-queries/mediatablet";
+@import "./media-queries/mediatablet2";
+@import "./utilities/variables";
+@import "./utilities/extend";
+@import "./utilities/mixin";
