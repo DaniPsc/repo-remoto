@@ -146,6 +146,7 @@ body {
     gap: 15px;
   }
 }
+/* Extend */
 /*Historia doom*/
 .section1 section {
   background-image: linear-gradient(rgb(71, 10, 10), rgb(158, 8, 8));
@@ -161,14 +162,11 @@ body {
   display: flex;
   margin: 5px;
 }
-.section1 section p:hover {
-  transform: scale(120px, 120px);
-}
-.section1 section p {
+.section1 p {
   font-size: 10px;
-  color: red;
+  color: rgb(219, 68, 68);
 }
-.section1 section img {
+.section1 img {
   width: 10rem;
   height: auto;
 }
