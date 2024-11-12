@@ -22,7 +22,7 @@ header {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid rgb(0, 0, 0);
-  padding: 5px;
+  padding: 2px;
 }
 header nav ul {
   text-decoration: none;
@@ -30,12 +30,12 @@ header nav ul {
   display: flex;
 }
 header nav ul li {
-  margin: 5px;
+  margin: 2px;
 }
 header nav ul li a {
   text-decoration: none;
   display: inline;
-  margin-left: 15px;
+  margin-left: 5px;
   color: rgb(9, 49, 9);
 }
 
@@ -83,7 +83,7 @@ p {
 }
 
 body {
-  color: black;
+  background-color: black;
 }
 
 /* media desktop */
@@ -135,6 +135,46 @@ body {
   .logodoom {
     width: 150px;
   }
+}
+@media (max-width: 882px) {
+  header {
+    font-size: 16px;
+    padding: 15px 30px;
+  }
+  header nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+/*Historia doom*/
+.section1 section {
+  background-image: linear-gradient(rgb(71, 10, 10), rgb(158, 8, 8));
+  display: flex;
+  flex-direction: column;
+}
+.section1 section h1 {
+  display: flex;
+  text-decoration: solid;
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(59, 8, 8), rgb(94, 8, 8), rgb(145, 6, 6), rgba(124, 45, 9, 0.842), rgb(230, 9, 9), rgb(250, 71, 0), rgb(230, 189, 6));
+}
+.section1 section p {
+  display: flex;
+  margin: 5px;
+}
+.section1 section p:hover {
+  transform: scale(120px, 120px);
+}
+.section1 section p {
+  font-size: 10px;
+  color: red;
+}
+.section1 section img {
+  width: 10rem;
+  height: auto;
+}
+
+.section3 span {
+  color: red;
 }
 
 /*# sourceMappingURL=styles.css.map */

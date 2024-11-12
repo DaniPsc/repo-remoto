@@ -15,22 +15,22 @@
 
   * h1 {
     color: $primary-color;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
+    font-family:$fuente1;
+    font-size: $size-fuente ;
   }
 
 
   * h2 {
     color:$primary-color;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-family:$fuente1;
+    font-size:$size-fuente2;
   }
 
 
   p {
       color: $primary-color;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-size: 15px;
+      font-family:$fuente1;
+      font-size: $size-fuente3;
   }
 
 
@@ -52,7 +52,7 @@
     height: auto;
   }
 
-  body { color: black;}
+  body { background-color: black;}
 
 
   
