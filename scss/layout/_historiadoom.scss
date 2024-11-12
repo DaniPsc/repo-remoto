@@ -28,10 +28,24 @@
     }
 }
     
+.section2 {
+    margin: 35px;
+    padding: 25px;
+    background-image: to right;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(7, 39, 7);
+    box-shadow: -3px 51px 64px 65px rgba(26,115,39,0.75);
+    -webkit-box-shadow: -3px 51px 64px 65px rgba(26,115,39,0.75);
+    -moz-box-shadow: -3px 51px 64px 65px rgba(26,115,39,0.75);
+
+
+}
 
 
 
-
-.section3 {span{
+.section3 {background-color:rgb(7, 39, 7); ;
+    
+    span{
     color:red;} 
 }
