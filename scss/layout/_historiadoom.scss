@@ -46,6 +46,14 @@
 
 .section3 {background-color:rgb(7, 39, 7); ;
     
+    
+
+    .parrafo-estilo {
+        @include parrafo-estilo(rgb(6, 71, 0), 15px, rgb(235, 235, 235))
+    }
+
+
+
     span{
     color:red;} 
 }

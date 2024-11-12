@@ -1,0 +1,5 @@
+@mixin parrafo-estilo ($bg-color, $font-size, $color-font) {
+    background-color:$bg-color;
+    font-size:$font-size;
+    $color-font:$color-font;
+}

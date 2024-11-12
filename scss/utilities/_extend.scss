@@ -1,1 +1,17 @@
 /* Extend */
+
+
+.face_guy {
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+
+
+    width: 100px;
+    height: 100px;
+    transition: width 0.5s ease, background-color 1s ease;
+
+    &:hover{
+        width: 200px;
+      }
+}
